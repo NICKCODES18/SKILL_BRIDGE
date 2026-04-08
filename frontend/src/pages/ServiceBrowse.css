@@ -1,0 +1,13 @@
+.browse-filters {
+  margin-bottom: 2rem;
+  padding: 1.25rem;
+}
+.filters-row {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.filters-row .form-input { flex: 1; min-width: 180px; }
+.filter-select { width: auto; min-width: 150px; flex-shrink: 0; }
+.filter-price { max-width: 100px; }

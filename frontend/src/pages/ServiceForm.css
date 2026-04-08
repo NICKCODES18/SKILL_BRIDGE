@@ -1,0 +1,7 @@
+.form-page { max-width: 720px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.form-actions { display: flex; gap: 1rem; justify-content: flex-end; margin-top: 1.5rem; }
+
+@media (max-width: 480px) {
+  .form-row { grid-template-columns: 1fr; }
+}

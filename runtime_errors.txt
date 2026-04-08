@@ -1,0 +1,137 @@
+﻿mvn : Apr 08, 2026 
+12:07:15 PM 
+org.jline.utils.Log logr
+At line:1 char:1
++ mvn spring-boot:run 
+2>&1 | Out-File 
+-FilePath 
+"e:\2HOURS\runtime_erro 
+...
++ 
+~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo       
+       : NotSpecified:   
+  (Apr 08, 2026 12....   
+ utils.Log logr:Strin    
+g) [], RemoteExcepti    
+on
+    + FullyQualifiedErro 
+   rId : NativeCommandE  
+  rror
+ 
+WARNING: Unable to 
+create a system 
+terminal, creating a 
+dumb terminal (enable 
+debug logging for more 
+information)
+[main] WARNING org.jline 
+- Unable to create a 
+system terminal, 
+creating a dumb terminal 
+(enable debug logging 
+for more information)
+[main] WARNING org.mvndae
+mon.mvnd.client.DaemonPar
+ameters - Falling back 
+to finding JAVA_HOME by 
+running java executable 
+available in PATH. You 
+may want to avoid this 
+time consuming task by 
+setting JAVA_HOME 
+environment variable or 
+by passing java.home 
+system property through 
+command line or in one 
+of mvnd configuration 
+files.
+[INFO] Processing build on daemon bc61570f
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 21
+[INFO] 
+[INFO] ----------------< com.skillbridge:skillbridge-backend >-----------------
+[INFO] Building SkillBridge Backend 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.3:run (default-cli) > test-compile @ skillbridge-backend >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ skillbridge-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ skillbridge-backend ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ skillbridge-backend ---
+[INFO] skip non existing resourceDirectory E:\2HOURS\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ skillbridge-backend ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.3:run (default-cli) < test-compile @ skillbridge-backend <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.3:run (default-cli) @ skillbridge-backend ---
+[INFO] Attaching agents: []
+[INFO] [stdout] 
+[INFO] [stdout]   .   ____          _            __ _ _
+[INFO] [stdout]  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+[INFO] [stdout] ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+[INFO] [stdout]  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+[INFO] [stdout]   '  |____| .__|_| |_|_| |_\__, | / / / /
+[INFO] [stdout]  =========|_|==============|___/=/_/_/_/
+[INFO] [stdout]  :: Spring Boot ::                (v3.2.3)
+[INFO] [stdout] 
+[INFO] [stdout] 2026-04-08T12:07:17.463+05:30  INFO 10188 --- [skillbridge] [           main] com.skillbridge.SkillBridgeApplication   : Starting SkillBridgeApplication using Java 23.0.2 with PID 10188 (E:\2HOURS\backend\target\classes started by nikun in E:\2HOURS\backend)
+[INFO] [stdout] 2026-04-08T12:07:17.466+05:30  INFO 10188 --- [skillbridge] [           main] com.skillbridge.SkillBridgeApplication   : No active profile set, falling back to 1 default profile: "default"
+[INFO] [stdout] 2026-04-08T12:07:18.345+05:30  INFO 10188 --- [skillbridge] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] [stdout] 2026-04-08T12:07:18.457+05:30  INFO 10188 --- [skillbridge] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 5 JPA repository interfaces.
+[INFO] [stdout] 2026-04-08T12:07:19.275+05:30  INFO 10188 --- [skillbridge] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+[INFO] [stdout] 2026-04-08T12:07:19.312+05:30  INFO 10188 --- [skillbridge] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[INFO] [stdout] 2026-04-08T12:07:19.312+05:30  INFO 10188 --- [skillbridge] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO] [stdout] 2026-04-08T12:07:19.407+05:30  INFO 10188 --- [skillbridge] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+[INFO] [stdout] 2026-04-08T12:07:19.409+05:30  INFO 10188 --- [skillbridge] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1859 ms
+[INFO] [stdout] 2026-04-08T12:07:19.442+05:30 ERROR 10188 --- [skillbridge] [           main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthFilter' defined in file [E:\2HOURS\backend\target\classes\com\skillbridge\config\JwtAuthFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'securityConfig' defined in file [E:\2HOURS\backend\target\classes\com\skillbridge\config\SecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'jwtAuthFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+[INFO] [stdout] 2026-04-08T12:07:19.483+05:30  INFO 10188 --- [skillbridge] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+[INFO] [stdout] 2026-04-08T12:07:19.502+05:30  WARN 10188 --- [skillbridge] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+[INFO] [stdout] 2026-04-08T12:07:19.514+05:30  INFO 10188 --- [skillbridge] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+[INFO] [stdout] 
+[INFO] [stdout] Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[INFO] [stdout] 2026-04-08T12:07:19.540+05:30 ERROR 10188 --- [skillbridge] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+[INFO] [stdout] 
+[INFO] [stdout] ***************************
+[INFO] [stdout] APPLICATION FAILED TO START
+[INFO] [stdout] ***************************
+[INFO] [stdout] 
+[INFO] [stdout] Description:
+[INFO] [stdout] 
+[INFO] [stdout] The dependencies of some of the beans in the application context form a cycle:
+[INFO] [stdout] 
+[INFO] [stdout] ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+[INFO] [stdout] |  jwtAuthFilter defined in file [E:\2HOURS\backend\target\classes\com\skillbridge\config\JwtAuthFilter.class]
+[INFO] [stdout] Γåæ     Γåô
+[INFO] [stdout] |  securityConfig defined in file [E:\2HOURS\backend\target\classes\com\skillbridge\config\SecurityConfig.class]
+[INFO] [stdout] ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+[INFO] [stdout] 
+[INFO] [stdout] 
+[INFO] [stdout] Action:
+[INFO] [stdout] 
+[INFO] [stdout] Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+[INFO] [stdout] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.113 s (Wall Clock)
+[INFO] Finished at: 2026-04-08T12:07:19+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.3:run (default-cli) on project skillbridge-backend: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

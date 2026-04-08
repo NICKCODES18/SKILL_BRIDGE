@@ -1,0 +1,677 @@
+﻿mvn : Apr 08, 2026 
+12:05:13 PM 
+org.jline.utils.Log logr
+At line:1 char:1
++ mvn compile 2>&1 | 
+Out-File -FilePath "e:\2H
+OURS\build_errors.txt" 
+-E ...
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo       
+       : NotSpecified:   
+  (Apr 08, 2026 12....   
+ utils.Log logr:Strin    
+g) [], RemoteExcepti    
+on
+    + FullyQualifiedErro 
+   rId : NativeCommandE  
+  rror
+ 
+WARNING: Unable to 
+create a system 
+terminal, creating a 
+dumb terminal (enable 
+debug logging for more 
+information)
+[main] WARNING org.jline 
+- Unable to create a 
+system terminal, 
+creating a dumb terminal 
+(enable debug logging 
+for more information)
+[main] WARNING org.mvndae
+mon.mvnd.client.DaemonPar
+ameters - Falling back 
+to finding JAVA_HOME by 
+running java executable 
+available in PATH. You 
+may want to avoid this 
+time consuming task by 
+setting JAVA_HOME 
+environment variable or 
+by passing java.home 
+system property through 
+command line or in one 
+of mvnd configuration 
+files.
+[INFO] Processing build on daemon ce2a409b
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 21
+[INFO] 
+[INFO] ----------------< com.skillbridge:skillbridge-backend >-----------------
+[INFO] Building SkillBridge Backend 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ skillbridge-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ skillbridge-backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 46 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/controller/AdminController.java:[18,32] variable adminService not initialized in the default constructor
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AdminService.java:[24,34] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.dto.AdminStatsResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AdminService.java:[55,16] cannot find symbol
+  symbol:   method setStatus(service.ge[...]CTIVE)
+  location: variable service of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AdminService.java:[55,34] cannot find symbol
+  symbol:   method getStatus()
+  location: variable service of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ApiResponse.java:[18,27] cannot find symbol
+  symbol:   method <T>builder()
+  location: class com.skillbridge.dto.ApiResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ApiResponse.java:[22,27] cannot find symbol
+  symbol:   method <T>builder()
+  location: class com.skillbridge.dto.ApiResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ApiResponse.java:[26,27] cannot find symbol
+  symbol:   method <T>builder()
+  location: class com.skillbridge.dto.ApiResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/UserResponse.java:[25,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.dto.UserResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/UserResponse.java:[26,25] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/UserResponse.java:[27,27] cannot find symbol
+  symbol:   method getName()
+  location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/UserResponse.java:[28,28] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/UserResponse.java:[29,27] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/UserResponse.java:[30,26] cannot find symbol
+  symbol:   method getBio()
+  location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/UserResponse.java:[31,37] cannot find symbol
+  symbol:   method getProfilePicture()
+  location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/UserResponse.java:[32,32] cannot find symbol
+  symbol:   method getCreatedAt()
+  location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[34,31] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.dto.ServiceResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[35,22] cannot find symbol
+  symbol:   method getId()
+  location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[36,25] cannot find symbol
+  symbol:   method getTitle()
+  location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[37,31] cannot find symbol
+  symbol:   method getDescription()
+  location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[38,25] cannot find symbol
+  symbol:   method getPrice()
+  location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[39,32] cannot find symbol
+  symbol:   method getDeliveryDays()
+  location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[40,30] cannot find symbol
+  symbol:   method getCategory()
+  location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[41,32] cannot find symbol
+  symbol:   method getCategory()
+  location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[42,30] cannot find symbol
+  symbol:   method getProvider()
+  location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[43,32] cannot find symbol
+  symbol:   method getProvider()
+  location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[44,31] cannot find symbol
+  symbol:   method getProvider()
+  location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[45,26] cannot find symbol
+  symbol:   method getStatus()
+  location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[46,29] cannot find symbol
+  symbol:   method getCreatedAt()
+  location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[47,29] cannot find symbol
+  symbol:   method getUpdatedAt()
+  location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[32,30] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[40,13] cannot find symbol
+  symbol:   variable log
+  location: class com.skillbridge.config.DataInitializer
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[47,29] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.model.Category
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[48,29] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.model.Category
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[49,29] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.model.Category
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[50,29] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.model.Category
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[51,29] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.model.Category
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[52,29] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.model.Category
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[53,29] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.model.Category
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[54,29] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.model.Category
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[57,13] cannot find symbol
+  symbol:   variable log
+  location: class com.skillbridge.config.DataInitializer
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/SecurityConfig.java:[42,39] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/SecurityConfig.java:[43,39] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/SecurityConfig.java:[44,36] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/SecurityConfig.java:[46,29] incompatible types: bad return type in lambda expression
+    no instance(s) of type variable(s) X exist so that java.lang.Object conforms to org.springframework.security.core.userdetails.UserDetails
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[27,83] cannot find symbol
+  symbol:   method getServiceId()
+  location: variable request of type com.skillbridge.dto.BookingRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[30,20] cannot find symbol
+  symbol:   method getProvider()
+  location: variable service of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[34,20] cannot find symbol
+  symbol:   method getStatus()
+  location: variable service of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[38,34] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[41,33] cannot find symbol
+  symbol:   method getMessage()
+  location: variable request of type com.skillbridge.dto.BookingRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[54,64] cannot find symbol
+  symbol:   method getId()
+  location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[70,35] cannot find symbol
+  symbol:   method getClient()
+  location: variable booking of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[71,37] cannot find symbol
+  symbol:   method getService()
+  location: variable booking of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[85,16] cannot find symbol
+  symbol:   method setStatus(com.skillbridge.model.BookingStatus)
+  location: variable booking of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[33,31] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.dto.BookingResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[34,22] cannot find symbol
+  symbol:   method getId()
+  location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[35,29] cannot find symbol
+  symbol:   method getService()
+  location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[36,32] cannot find symbol
+  symbol:   method getService()
+  location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[37,32] cannot find symbol
+  symbol:   method getService()
+  location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[38,28] cannot find symbol
+  symbol:   method getClient()
+  location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[39,30] cannot find symbol
+  symbol:   method getClient()
+  location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[40,31] cannot find symbol
+  symbol:   method getClient()
+  location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[41,30] cannot find symbol
+  symbol:   method getService()
+  location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[42,32] cannot find symbol
+  symbol:   method getService()
+  location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[43,26] cannot find symbol
+  symbol:   method getStatus()
+  location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[44,27] cannot find symbol
+  symbol:   method getMessage()
+  location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[45,28] cannot find symbol
+  symbol:   method getBookedAt()
+  location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[46,29] cannot find symbol
+  symbol:   method getUpdatedAt()
+  location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/ReviewService.java:[26,61] cannot find symbol
+  symbol:   method getBookingId()
+  location: variable request of type com.skillbridge.dto.ReviewRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/ReviewService.java:[29,21] cannot find symbol
+  symbol:   method getClient()
+  location: variable booking of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/ReviewService.java:[33,20] cannot find symbol
+  symbol:   method getStatus()
+  location: variable booking of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/ReviewService.java:[37,55] cannot find symbol
+  symbol:   method getBookingId()
+  location: variable request of type com.skillbridge.dto.ReviewRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/ReviewService.java:[41,31] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/ReviewService.java:[44,32] cannot find symbol
+  symbol:   method getRating()
+  location: variable request of type com.skillbridge.dto.ReviewRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/ReviewService.java:[45,33] cannot find symbol
+  symbol:   method getComment()
+  location: variable request of type com.skillbridge.dto.ReviewRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[25,30] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.dto.ReviewResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[26,22] cannot find symbol
+  symbol:   method getId()
+  location: variable r of type com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[27,29] cannot find symbol
+  symbol:   method getBooking()
+  location: variable r of type com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[28,29] cannot find symbol
+  symbol:   method getBooking()
+  location: variable r of type com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[29,30] cannot find symbol
+  symbol:   method getReviewer()
+  location: variable r of type com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[30,32] cannot find symbol
+  symbol:   method getReviewer()
+  location: variable r of type com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[31,26] cannot find symbol
+  symbol:   method getRating()
+  location: variable r of type com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[32,27] cannot find symbol
+  symbol:   method getComment()
+  location: variable r of type com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[33,29] cannot find symbol
+  symbol:   method getCreatedAt()
+  location: variable r of type com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[29,49] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.skillbridge.dto.RegisterRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[32,25] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[33,30] cannot find symbol
+  symbol:   method getName()
+  location: variable request of type com.skillbridge.dto.RegisterRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[34,31] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.skillbridge.dto.RegisterRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[35,57] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.skillbridge.dto.RegisterRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[37,29] cannot find symbol
+  symbol:   method getBio()
+  location: variable request of type com.skillbridge.dto.RegisterRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[41,77] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[44,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.dto.AuthResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[46,29] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[46,48] cannot find symbol
+  symbol:   method getName()
+  location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[47,28] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[47,50] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[53,64] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.skillbridge.dto.LoginRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[53,84] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.skillbridge.dto.LoginRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[55,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.skillbridge.dto.LoginRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[57,77] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[60,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.skillbridge.dto.AuthResponse
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.206 s (Wall Clock)
+[INFO] Finished at: 2026-04-08T12:05:22+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project skillbridge-backend: Compilation failure: Compilation failure: 
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/controller/AdminController.java:[18,32] variable adminService not initialized in the default constructor
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AdminService.java:[24,34] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.dto.AdminStatsResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AdminService.java:[55,16] cannot find symbol
+[ERROR]   symbol:   method setStatus(service.ge[...]CTIVE)
+[ERROR]   location: variable service of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AdminService.java:[55,34] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable service of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ApiResponse.java:[18,27] cannot find symbol
+[ERROR]   symbol:   method <T>builder()
+[ERROR]   location: class com.skillbridge.dto.ApiResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ApiResponse.java:[22,27] cannot find symbol
+[ERROR]   symbol:   method <T>builder()
+[ERROR]   location: class com.skillbridge.dto.ApiResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ApiResponse.java:[26,27] cannot find symbol
+[ERROR]   symbol:   method <T>builder()
+[ERROR]   location: class com.skillbridge.dto.ApiResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/UserResponse.java:[25,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.dto.UserResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/UserResponse.java:[26,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/UserResponse.java:[27,27] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/UserResponse.java:[28,28] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/UserResponse.java:[29,27] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/UserResponse.java:[30,26] cannot find symbol
+[ERROR]   symbol:   method getBio()
+[ERROR]   location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/UserResponse.java:[31,37] cannot find symbol
+[ERROR]   symbol:   method getProfilePicture()
+[ERROR]   location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/UserResponse.java:[32,32] cannot find symbol
+[ERROR]   symbol:   method getCreatedAt()
+[ERROR]   location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[34,31] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.dto.ServiceResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[35,22] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[36,25] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[37,31] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[38,25] cannot find symbol
+[ERROR]   symbol:   method getPrice()
+[ERROR]   location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[39,32] cannot find symbol
+[ERROR]   symbol:   method getDeliveryDays()
+[ERROR]   location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[40,30] cannot find symbol
+[ERROR]   symbol:   method getCategory()
+[ERROR]   location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[41,32] cannot find symbol
+[ERROR]   symbol:   method getCategory()
+[ERROR]   location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[42,30] cannot find symbol
+[ERROR]   symbol:   method getProvider()
+[ERROR]   location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[43,32] cannot find symbol
+[ERROR]   symbol:   method getProvider()
+[ERROR]   location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[44,31] cannot find symbol
+[ERROR]   symbol:   method getProvider()
+[ERROR]   location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[45,26] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[46,29] cannot find symbol
+[ERROR]   symbol:   method getCreatedAt()
+[ERROR]   location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ServiceResponse.java:[47,29] cannot find symbol
+[ERROR]   symbol:   method getUpdatedAt()
+[ERROR]   location: variable s of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[32,30] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[40,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.skillbridge.config.DataInitializer
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[47,29] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.model.Category
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[48,29] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.model.Category
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[49,29] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.model.Category
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[50,29] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.model.Category
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[51,29] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.model.Category
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[52,29] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.model.Category
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[53,29] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.model.Category
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[54,29] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.model.Category
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/DataInitializer.java:[57,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.skillbridge.config.DataInitializer
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/SecurityConfig.java:[42,39] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/SecurityConfig.java:[43,39] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/SecurityConfig.java:[44,36] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/config/SecurityConfig.java:[46,29] incompatible types: bad return type in lambda expression
+[ERROR]     no instance(s) of type variable(s) X exist so that java.lang.Object conforms to org.springframework.security.core.userdetails.UserDetails
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[27,83] cannot find symbol
+[ERROR]   symbol:   method getServiceId()
+[ERROR]   location: variable request of type com.skillbridge.dto.BookingRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[30,20] cannot find symbol
+[ERROR]   symbol:   method getProvider()
+[ERROR]   location: variable service of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[34,20] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable service of type com.skillbridge.model.Service
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[38,34] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[41,33] cannot find symbol
+[ERROR]   symbol:   method getMessage()
+[ERROR]   location: variable request of type com.skillbridge.dto.BookingRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[54,64] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[70,35] cannot find symbol
+[ERROR]   symbol:   method getClient()
+[ERROR]   location: variable booking of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[71,37] cannot find symbol
+[ERROR]   symbol:   method getService()
+[ERROR]   location: variable booking of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/BookingService.java:[85,16] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.skillbridge.model.BookingStatus)
+[ERROR]   location: variable booking of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[33,31] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.dto.BookingResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[34,22] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[35,29] cannot find symbol
+[ERROR]   symbol:   method getService()
+[ERROR]   location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[36,32] cannot find symbol
+[ERROR]   symbol:   method getService()
+[ERROR]   location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[37,32] cannot find symbol
+[ERROR]   symbol:   method getService()
+[ERROR]   location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[38,28] cannot find symbol
+[ERROR]   symbol:   method getClient()
+[ERROR]   location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[39,30] cannot find symbol
+[ERROR]   symbol:   method getClient()
+[ERROR]   location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[40,31] cannot find symbol
+[ERROR]   symbol:   method getClient()
+[ERROR]   location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[41,30] cannot find symbol
+[ERROR]   symbol:   method getService()
+[ERROR]   location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[42,32] cannot find symbol
+[ERROR]   symbol:   method getService()
+[ERROR]   location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[43,26] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[44,27] cannot find symbol
+[ERROR]   symbol:   method getMessage()
+[ERROR]   location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[45,28] cannot find symbol
+[ERROR]   symbol:   method getBookedAt()
+[ERROR]   location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/BookingResponse.java:[46,29] cannot find symbol
+[ERROR]   symbol:   method getUpdatedAt()
+[ERROR]   location: variable b of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/ReviewService.java:[26,61] cannot find symbol
+[ERROR]   symbol:   method getBookingId()
+[ERROR]   location: variable request of type com.skillbridge.dto.ReviewRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/ReviewService.java:[29,21] cannot find symbol
+[ERROR]   symbol:   method getClient()
+[ERROR]   location: variable booking of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/ReviewService.java:[33,20] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable booking of type com.skillbridge.model.Booking
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/ReviewService.java:[37,55] cannot find symbol
+[ERROR]   symbol:   method getBookingId()
+[ERROR]   location: variable request of type com.skillbridge.dto.ReviewRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/ReviewService.java:[41,31] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/ReviewService.java:[44,32] cannot find symbol
+[ERROR]   symbol:   method getRating()
+[ERROR]   location: variable request of type com.skillbridge.dto.ReviewRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/ReviewService.java:[45,33] cannot find symbol
+[ERROR]   symbol:   method getComment()
+[ERROR]   location: variable request of type com.skillbridge.dto.ReviewRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[25,30] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.dto.ReviewResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[26,22] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable r of type com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[27,29] cannot find symbol
+[ERROR]   symbol:   method getBooking()
+[ERROR]   location: variable r of type com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[28,29] cannot find symbol
+[ERROR]   symbol:   method getBooking()
+[ERROR]   location: variable r of type com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[29,30] cannot find symbol
+[ERROR]   symbol:   method getReviewer()
+[ERROR]   location: variable r of type com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[30,32] cannot find symbol
+[ERROR]   symbol:   method getReviewer()
+[ERROR]   location: variable r of type com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[31,26] cannot find symbol
+[ERROR]   symbol:   method getRating()
+[ERROR]   location: variable r of type com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[32,27] cannot find symbol
+[ERROR]   symbol:   method getComment()
+[ERROR]   location: variable r of type com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/dto/ReviewResponse.java:[33,29] cannot find symbol
+[ERROR]   symbol:   method getCreatedAt()
+[ERROR]   location: variable r of type com.skillbridge.model.Review
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[29,49] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.skillbridge.dto.RegisterRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[32,25] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[33,30] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable request of type com.skillbridge.dto.RegisterRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[34,31] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.skillbridge.dto.RegisterRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[35,57] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.skillbridge.dto.RegisterRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[37,29] cannot find symbol
+[ERROR]   symbol:   method getBio()
+[ERROR]   location: variable request of type com.skillbridge.dto.RegisterRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[41,77] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[44,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.dto.AuthResponse
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[46,29] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[46,48] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[47,28] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[47,50] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[53,64] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.skillbridge.dto.LoginRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[53,84] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.skillbridge.dto.LoginRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[55,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.skillbridge.dto.LoginRequest
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[57,77] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.skillbridge.model.User
+[ERROR] /E:/2HOURS/backend/src/main/java/com/skillbridge/service/AuthService.java:[60,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.skillbridge.dto.AuthResponse
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
